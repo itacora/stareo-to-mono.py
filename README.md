@@ -1,4 +1,4 @@
-# stareo-to-mono.py|audio data modify
+# streo-to-mono.py|audio data modify
 
 case of audio data, sometimes stereo ch.
 
