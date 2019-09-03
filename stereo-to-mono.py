@@ -19,8 +19,9 @@ for path in glob.glob(os.path.join(from_dir, '*.WAV')):
     wav_r = wav[:, 1]
 
     # change to mono
-    #initial value 0.5
-    xs = (0.5 * wav_l) + (0.5 * wav_r)
+    #initial value 0.5, but my study case uses value 1.0(just amplified).
+    #so please make change value, if you want.
+    xs = (1.0 * wav_l) + (1.0 * wav_r)
     
     #save files
     #defult : sf.write('new_file.wav', xs, fs)
