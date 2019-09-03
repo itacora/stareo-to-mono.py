@@ -1,4 +1,6 @@
-# stareo-to-mono.py
+# stareo-to-mono.py|audio data modify
+
+case of audio data, sometimes stereo ch.
 
 using python,
 all files can change to monaural on your local env.
