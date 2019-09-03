@@ -27,3 +27,6 @@ for path in glob.glob(os.path.join(from_dir, '*.WAV')):
     basename = os.path.basename(path)
     ftitle, fext = os.path.splitext(path)
     sf.write(os.path.join(to_dir, 'mono_' + basename), xs, fs)
+
+    
+    
